@@ -2,8 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Moon+Dance&family=Poppins:ital@1&display=swap');
 
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-pic{
+    width: 43px;
+    height: 51px;
+    margin-right: 10px;
+    align-items: center;
+    
+}
+.pro{
+    width: 51px;
+    height: 51px;
+    padding-left: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #562EFF;
+    color: white;
+    align-items: center;
+}
+nav ul{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
 }
 main{
     display: flex;
